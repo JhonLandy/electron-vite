@@ -1,15 +1,57 @@
-// noinspection JSUnusedGlobalSymbols
+import { resolve } from "path"
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import electron from 'vite-electron-plugin'
 import legacy from '@vitejs/plugin-legacy'
-import { defineConfig } from "vite"
-
-export default defineConfig({
+import { defineConfig, splitVendorChunkPlugin, loadEnv  } from "vite"
+export default defineConfig(({ mode }) =>({
+    define: {
+        "process.env": loadEnv(mode, process.cwd(), "")
+    },
     build: {
         outDir: "dist-app",
         assetsDir: "static",
         sourcemap: true,
+        rollupOptions: {
+            output: {
+                entryFileNames: "js/[name].[hash].entry.js",
+                chunkFileNames: "js/[name].[hash].chunkFile.js",
+                assetFileNames(asset) {
+                    const filename = asset.name as string
+                    switch (true) {
+                        case /\.(css|sass|scaa|less)$/.test(filename):
+                            return "css/[name].[hash].[ext]"
+                        case /\.(png|jpe?g|gif|svg|webp)$/.test(filename):
+                            return "image/[name].[hash].[ext]"
+                        case /\.(woff2|eot|ttf|otf)$/.test(filename):
+                            return "font/[name].[hash].[ext]"
+                        case /\.(mp4|webm|ogg|mp3|wav|flac|acc)$/.test(filename):
+                            return "media/[name].[hash].[ext]"
+                        default:
+                            return filename
+                    }
+                },
+                manualChunks(id) {
+                    switch (true) {
+                        case id.includes("vue"):
+                            return `vendor/vue`
+                        case id.includes("ramda"):
+                            return `vendor/ramda`
+                        case id.includes("element-plus"):
+                            return `element-plus`
+                        case id.includes("node_modules"):
+                            return "vendor/[name].[hash].chunkFile.js"
+                    }
+                }
+            }
+        }
+
+    },
+    resolve: {
+        alias: {
+            "@src": resolve(__dirname, "./src")
+        },
+        extensions: [".js", ".jsx", ".vue", ".ts", ".tsx",".css", ".sass"]
     },
     server: {
         host: "127.0.0.1",
@@ -41,5 +83,6 @@ export default defineConfig({
                 'electron',
             ],
         }),
+        splitVendorChunkPlugin()
     ],
-})
+}))

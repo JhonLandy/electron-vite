@@ -11,7 +11,7 @@ export default defineComponent({
         };
     },
     mounted() {
-        console.log(process.env.VUE_APP_ENV);
+        console.log("VITE_APP_ENV", process.env);
     },
 });
 </script>

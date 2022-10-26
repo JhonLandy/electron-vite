@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "桌面应用",
   "scripts": {
-    "dev": "vite build && vite --host",
-    "build": "vite build && electron-builder"
+    "dev": "cross-env NODE_ENV=development vite --host --mode development ",
+    "build": "cross-env NODE_ENV=production vite --mode production build && electron-builder",
+    "eslint-format": "eslint --fix --format node_modules/eslint-friendly-formatter/index.js"
   },
   "keywords": [
     "vite"
@@ -19,7 +20,7 @@
     "@vitejs/plugin-vue": "^3.1.2",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
     "@vue/compiler-sfc": "^3.2.38",
-    "babel-loader": "^8.2.5",
+    "cross-env": "^7.0.3",
     "electron": "^20.1.2",
     "electron-builder": "^23.3.3",
     "electron-debug": "^3.2.0",
@@ -53,7 +54,7 @@
   },
   "lint-staged": {
     "src/**/*.{vue,js,jsx,ts,tsx}": [
-      "eslint --fix"
+      "eslint-format"
     ]
   },
   "packageManager": "yarn"
