@@ -1,3 +1,4 @@
+// @ts-ignore
 import { app, BrowserWindow } from 'electron'
 const devToolInstall =  require("../extensions")
 // 保持一个对于 window 对象的全局引用，如果你不这样做，
@@ -11,7 +12,7 @@ function createWindow() {
 
     // 加载应用的 index.html
     // const indexPageURL = `${__dirname}/app-dist/index.html`;
-    const indexPageURL = process.env.VITE_DEV_SERVER_URL!
+    const indexPageURL = process.env.VITE_APP_ENV === "production"  ? `${app.getAppPath()}/dist-app/index.html` : process.env.VITE_DEV_SERVER_URL!
     win.loadURL(indexPageURL);
 
     // 当 window 被关闭，这个事件会被触发

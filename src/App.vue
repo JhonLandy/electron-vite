@@ -2,8 +2,7 @@
     <div class="app">6666</div>
 </template>
 <script lang="ts">
-import { defineComponent } from "vue";
-export default defineComponent({
+export default {
     name: "App",
     data() {
         return {
@@ -13,7 +12,7 @@ export default defineComponent({
     mounted() {
         console.log("VITE_APP_ENV", process.env);
     },
-});
+};
 </script>
 <style lang="sass" scoped>
 $color: red

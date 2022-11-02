@@ -5,6 +5,11 @@ import electron from 'vite-electron-plugin'
 import legacy from '@vitejs/plugin-legacy'
 import { defineConfig, splitVendorChunkPlugin, loadEnv  } from "vite"
 export default defineConfig(({ mode }) =>({
+    css: {
+        postcss: {
+            plugins: [require('tailwindcss'), require('autoprefixer')],
+        },
+    },
     define: {
         "process.env": loadEnv(mode, process.cwd(), "")
     },

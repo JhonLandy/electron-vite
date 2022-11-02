@@ -5,3 +5,4 @@ dist-electron
 node_modules
 .idea
 release
+packages

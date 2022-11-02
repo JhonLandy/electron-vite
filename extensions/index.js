@@ -1,4 +1,4 @@
-if (process.env.NODE_ENV === "development") {
+if (process.env.VITE_APP_ENV === "development") {
   require("electron-debug")({ showDevTools: true });
   const { session } = require("electron");
   const path = require("path");
@@ -16,4 +16,5 @@ if (process.env.NODE_ENV === "development") {
 } else {
   module.exports = () => Promise.resolve()
 }
+
 
