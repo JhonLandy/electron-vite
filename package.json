@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "桌面应用",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development vite --host --mode development ",
+    "dev": "cross-env NODE_ENV=development vite --mode development --host",
     "build": "cross-env NODE_ENV=production vite --mode production build && electron-builder",
     "eslint-format": "eslint --fix --format node_modules/eslint-friendly-formatter/index.js"
   },

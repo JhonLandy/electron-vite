@@ -11,5 +11,6 @@
   "singleAttributePerLine": true,
   "vueIndentScriptAndStyle": false,
   "htmlWhitespaceSensitivity": "css",
-  "jsxBracketSameLine": false
+  "jsxBracketSameLine": false,
+  "endOfLine": "auto"
 }

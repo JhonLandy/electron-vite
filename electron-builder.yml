@@ -6,12 +6,12 @@ electronDownload:
   platform: "win32"
   arch: "x64"
 directories:
-    output: "packages/${version}"
+    output: "packages"
 files:
-    - "dist-electron/main.js"
+    - "dist-electron"
     - "dist-app"
     - "extensions"
-    - "node_modules/electron-debug"
+    - "utils"
 mac:
     artifactName: "${productName}_${version}.${ext}"
     target:
