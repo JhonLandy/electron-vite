@@ -1,19 +1,18 @@
-import path from "node:path"
-import url from "node:url"
-// @ts-ignore
-import { app, session } from "electron"
+import path from "node:path";
+import url from "node:url";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+import { app, session } from "electron";
 
 export function resolveAppPath(resource: string) {
-    return url.pathToFileURL(path.join(app.getAppPath(), resource)).href
+    return url.pathToFileURL(path.join(`${app.getAppPath()}/resources/app.asar`, resource)).href;
 }
-export function installDevTools() {
-    const devtoolPaths = [
-        // 安装vue-devtools
-        "./vue3-devtools",
-    ];
+export function installDevTools(devtools: Array<string>) {
+    if (app.isPackaged) return;
     return Promise.all(
-            devtoolPaths.map(devtoolPath => {
-                return session.defaultSession.loadExtension(path.join(process.cwd(), `/extensions/${devtoolPath}`))
-            }))
+        devtools.map(name => {
+            return session.defaultSession.loadExtension(
+                path.resolve(__dirname, `../../extensions/${name}`)
+            );
+        })
+    );
 }
-

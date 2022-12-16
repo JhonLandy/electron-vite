@@ -88,9 +88,6 @@ export default defineConfig(({ mode }) => ({
                 // The Electron source codes directory
                 "electron",
             ],
-            exclude: [
-                "electron/extensions"
-            ]
         }),
         splitVendorChunkPlugin(),
     ],

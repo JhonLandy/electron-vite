@@ -11,7 +11,7 @@ files:
     - "dist-electron"
     - "dist-app"
     - "extensions"
-    - "utils"
+    - "src/preload.js"
 mac:
     artifactName: "${productName}_${version}.${ext}"
     target:
