@@ -1,5 +1,4 @@
-import App from "@src/App.vue";
-import "tailwindcss/tailwind.css";
+import TheBall from "@src/TheBall.vue";
 import { createApp } from "vue";
 import { createVuetify } from "vuetify";
 import * as components from "vuetify/components";
@@ -11,4 +10,4 @@ const vuetify = createVuetify({
     directives,
 });
 
-createApp(App).use(vuetify).mount("#app");
+createApp(TheBall).use(vuetify).mount("#app");

@@ -18,7 +18,10 @@ export default defineConfig(({ mode }) => ({
         assetsDir: "static",
         sourcemap: true,
         rollupOptions: {
-            input: resolve(__dirname, "./index.html"),
+            input: {
+                index: resolve(__dirname, "./public/index.html"),
+                ball: resolve(__dirname, "./public/ball.html"),
+            },
             output: {
                 entryFileNames: "js/[name].[hash].entry.js",
                 chunkFileNames: "js/[name].[hash].chunkFile.js",
@@ -55,6 +58,7 @@ export default defineConfig(({ mode }) => ({
     resolve: {
         alias: {
             "@src": resolve(__dirname, "./src"),
+            "@views": resolve(__dirname, "./src/views"),
             "@root": resolve(__dirname),
         },
         extensions: [".js", ".jsx", ".vue", ".ts", ".tsx", ".css", ".sass"],

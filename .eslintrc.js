@@ -25,5 +25,15 @@ module.exports = {
         "no-var": "error",
         "no-empty": "warn",
         "vue/multi-word-component-names": "off",
+        "vue/html-self-closing": [
+            "warn",
+            {
+                html: {
+                    void: "never",
+                    normal: "always",
+                    component: "always",
+                },
+            },
+        ],
     },
 };
