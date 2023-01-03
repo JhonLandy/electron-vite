@@ -63,5 +63,8 @@
       "npm run eslint-format"
     ]
   },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
   "packageManager": "yarn@1.22.4"
 }
