@@ -216,76 +216,6 @@
         "signature": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
         "affectsGlobalScope": true
       },
-      "./node_modules/@babel/types/lib/index.d.ts": {
-        "version": "f4617bbd5403ec5b058db53b242dcb1421952e2652bd5c80abf6a1c4ea5656d6",
-        "signature": "f4617bbd5403ec5b058db53b242dcb1421952e2652bd5c80abf6a1c4ea5656d6",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@vue/shared/dist/shared.d.ts": {
-        "version": "b1e2df05aa3ff6b351c0cf3136a6ccde19deed473355818544ec7c770e3dd623",
-        "signature": "b1e2df05aa3ff6b351c0cf3136a6ccde19deed473355818544ec7c770e3dd623",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@babel/parser/typings/babel-parser.d.ts": {
-        "version": "7ec238b220ea991b6643e24191b1f552a65956d5f6de4c6144e700b9985265d8",
-        "signature": "7ec238b220ea991b6643e24191b1f552a65956d5f6de4c6144e700b9985265d8",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/source-map/source-map.d.ts": {
-        "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
-        "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts": {
-        "version": "aa5af9d5c14a15405a29c85b7e97ab71ac770211b343ab6acfb171d3ac0f326b",
-        "signature": "aa5af9d5c14a15405a29c85b7e97ab71ac770211b343ab6acfb171d3ac0f326b",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts": {
-        "version": "3c342f3dd1f05c3e1e8981ec1b7943806a5cadcaef0e2a4a79d399a40fc1eadc",
-        "signature": "3c342f3dd1f05c3e1e8981ec1b7943806a5cadcaef0e2a4a79d399a40fc1eadc",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@vue/reactivity/dist/reactivity.d.ts": {
-        "version": "f202d382a3fd3213d7981ee79fefeb863b7e4a8990a36d8e0a625a07c2f03944",
-        "signature": "f202d382a3fd3213d7981ee79fefeb863b7e4a8990a36d8e0a625a07c2f03944",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts": {
-        "version": "8cdf7dac484dde17e0dfcd7a502571ce2639b4d9501183b0d9de9fcbb8eb578a",
-        "signature": "8cdf7dac484dde17e0dfcd7a502571ce2639b4d9501183b0d9de9fcbb8eb578a",
-        "affectsGlobalScope": true
-      },
-      "./node_modules/csstype/index.d.ts": {
-        "version": "c609b66caa6f5b80a9166ce7505730b398ae7c0eddc0c1feed28a17814cf8609",
-        "signature": "c609b66caa6f5b80a9166ce7505730b398ae7c0eddc0c1feed28a17814cf8609",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts": {
-        "version": "10ce6d52fe7dc184872e2cb1617d972e24484a96175a7a0b1f1a597eb44e8208",
-        "signature": "10ce6d52fe7dc184872e2cb1617d972e24484a96175a7a0b1f1a597eb44e8208",
-        "affectsGlobalScope": true
-      },
-      "./node_modules/vue/dist/vue.d.ts": {
-        "version": "f79e452d452ab10eac3f96b3b3930cf78ec6c9037c4cd9a062dae61744f634fc",
-        "signature": "f79e452d452ab10eac3f96b3b3930cf78ec6c9037c4cd9a062dae61744f634fc",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vuetify/lib/components/index.d.ts": {
-        "version": "e439fb896e454c4e116105c96eda40b6a16fd4ee1b0ab2768f3552e51e9a0c5c",
-        "signature": "e439fb896e454c4e116105c96eda40b6a16fd4ee1b0ab2768f3552e51e9a0c5c",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/vuetify/lib/index.d.ts": {
-        "version": "99d1b98b9147f3027462fe1f20d2369c3176ee9829a82dac5d2c80d03f56a151",
-        "signature": "99d1b98b9147f3027462fe1f20d2369c3176ee9829a82dac5d2c80d03f56a151",
-        "affectsGlobalScope": true
-      },
-      "./node_modules/vuetify/lib/directives/index.d.ts": {
-        "version": "dd9b24d90218fb8ea9108289597ac1437207685ff320474543a3ac3acf54f317",
-        "signature": "dd9b24d90218fb8ea9108289597ac1437207685ff320474543a3ac3acf54f317",
-        "affectsGlobalScope": false
-      },
       "./src/ball.ts": {
         "version": "4ff937e36283b0ead99f54d7e7231be22eb8e0cd23610aa60b4257bd07c62d1b",
         "signature": "1a32c3dbccadf06a9f55b78b5dd3ef0ba23c9e0b1f90931261e3e602849ed8b6",
@@ -567,8 +497,8 @@
         "affectsGlobalScope": true
       },
       "./src/global.d.ts": {
-        "version": "9ce58bdef819dead0f60a6a862b9d69863e31539345db0831fedfc88b544e407",
-        "signature": "9ce58bdef819dead0f60a6a862b9d69863e31539345db0831fedfc88b544e407",
+        "version": "21f6586bba677f2427be944f5f7b91e081660048ed8f727916aa7c56b4771aef",
+        "signature": "21f6586bba677f2427be944f5f7b91e081660048ed8f727916aa7c56b4771aef",
         "affectsGlobalScope": true
       },
       "./src/main.ts": {
@@ -591,13 +521,68 @@
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
       },
+      "./node_modules/custom-electron-titlebar/dist/main/index.d.ts": {
+        "version": "f48f135dcb1a5c411e18cacc73113891c690907146cbb344f59bc43220b32b19",
+        "signature": "f48f135dcb1a5c411e18cacc73113891c690907146cbb344f59bc43220b32b19",
+        "affectsGlobalScope": false
+      },
+      "./electron/menu/index.ts": {
+        "version": "0aa47b736f68dff2ac43134836ee650141dfaec8a47825dfb9bb5736ecf53931",
+        "signature": "4c0586de784ed6656d9db9ffedd66dba9ab924c2679a6b8741bc2f23e032971b",
+        "affectsGlobalScope": false
+      },
       "./electron/utils/index.ts": {
-        "version": "893c5d255a89e557da8961506c5abceefadaefad31da26a65fe11ca34171ec7f",
-        "signature": "17b6b660417c9f3549fc622aa80a6d9a017945106371afc212f9e70d2818182e",
+        "version": "fa98a508e4917cce42a09510af79f93e6868b4f5e532ac74f540edc1a4d03042",
+        "signature": "928d00b4217ae8b2310532a661317833f988b3e298d0ecb3caf3ed2656f49199",
         "affectsGlobalScope": false
       },
       "./electron/main.ts": {
-        "version": "877cae7a487dccd31c3b755950364a9616e76dc5a0c252ae259765f0abe9f679",
+        "version": "6abbf6592273c515ac4922789c9b7be86abaebe5d4ee44e2edca969684d812b7",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/custom-electron-titlebar/dist/vs/base/common/color.d.ts": {
+        "version": "e8ac2db1ba61e63f01447e875be011b070aa856e3c56ec3da4f33d79b5348c04",
+        "signature": "e8ac2db1ba61e63f01447e875be011b070aa856e3c56ec3da4f33d79b5348c04",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts": {
+        "version": "1fddcd81dfbbfabaa9b763dd2181062a5e22813b0409f5bd2f4409d5877cb6a1",
+        "signature": "1fddcd81dfbbfabaa9b763dd2181062a5e22813b0409f5bd2f4409d5877cb6a1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/custom-electron-titlebar/dist/menuitem.d.ts": {
+        "version": "3127dec0c864c5ef1c39f0d62e8aa8109197d259f0c89c1275c0d7931ec5197a",
+        "signature": "3127dec0c864c5ef1c39f0d62e8aa8109197d259f0c89c1275c0d7931ec5197a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/custom-electron-titlebar/dist/menu.d.ts": {
+        "version": "49c4b5eeee3d35374cb5a8e4dbcf1585e72cfab2793d20d83e00de674d33b1f1",
+        "signature": "49c4b5eeee3d35374cb5a8e4dbcf1585e72cfab2793d20d83e00de674d33b1f1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/custom-electron-titlebar/dist/menubar.d.ts": {
+        "version": "b4d3279c4550a52e965a30adfcf8c5c6718fe1ea68e2caeabf9e1dd3c0806163",
+        "signature": "b4d3279c4550a52e965a30adfcf8c5c6718fe1ea68e2caeabf9e1dd3c0806163",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/custom-electron-titlebar/dist/types/titlebar-options.d.ts": {
+        "version": "8f7204853f0d393fe18cc6f94d61cd9ab334c1cbc8203ea363a9244da9c23d18",
+        "signature": "8f7204853f0d393fe18cc6f94d61cd9ab334c1cbc8203ea363a9244da9c23d18",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/custom-electron-titlebar/dist/titlebar.d.ts": {
+        "version": "c9384fe322c66fc12dabb59b57a44e0d9e27097159d94274088df998e1e6c8cc",
+        "signature": "c9384fe322c66fc12dabb59b57a44e0d9e27097159d94274088df998e1e6c8cc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/custom-electron-titlebar/dist/index.d.ts": {
+        "version": "455fa069fb85b65a3118cab22d64df64ac00837dcb1cdf5ee9733ea01f4fd6b3",
+        "signature": "455fa069fb85b65a3118cab22d64df64ac00837dcb1cdf5ee9733ea01f4fd6b3",
+        "affectsGlobalScope": false
+      },
+      "./electron/preload/index.ts": {
+        "version": "7bafac1963dc58380e44b2c39bd245a25a4a44450b70db4d1388c20df2e6573b",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       }
@@ -780,9 +765,20 @@
         "./node_modules/@types/node/ts4.8/util.d.ts"
       ],
       "./electron/main.ts": [
+        "./electron/menu/index.ts",
         "./electron/utils/index.ts",
         "./node_modules/@types/node/ts4.8/path.d.ts",
         "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./electron/menu/index.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/main/index.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./electron/preload/index.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/index.d.ts",
         "./node_modules/electron/electron.d.ts"
       ],
       "./electron/utils/index.ts": [
@@ -790,13 +786,6 @@
         "./node_modules/@types/node/ts4.8/url.d.ts",
         "./node_modules/@types/node/ts4.8/util.d.ts",
         "./node_modules/electron/electron.d.ts"
-      ],
-      "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
-        "./node_modules/@babel/types/lib/index.d.ts",
-        "./node_modules/@types/node/ts4.8/util.d.ts"
-      ],
-      "./node_modules/@babel/types/lib/index.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts"
       ],
       "./node_modules/@types/node/ts4.8/assert.d.ts": [
         "./node_modules/@types/node/ts4.8/assert.d.ts",
@@ -1149,38 +1138,48 @@
         "./node_modules/@types/node/ts4.8/util.d.ts",
         "./node_modules/@types/node/ts4.8/zlib.d.ts"
       ],
-      "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts": [
-        "./node_modules/@babel/parser/typings/babel-parser.d.ts",
-        "./node_modules/@babel/types/lib/index.d.ts",
+      "./node_modules/custom-electron-titlebar/dist/index.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/shared/dist/shared.d.ts",
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/custom-electron-titlebar/dist/titlebar.d.ts"
       ],
-      "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts"
-      ],
-      "./node_modules/@vue/reactivity/dist/reactivity.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/shared/dist/shared.d.ts"
-      ],
-      "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
-        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
-        "./node_modules/@vue/shared/dist/shared.d.ts"
-      ],
-      "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
-        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-        "./node_modules/csstype/index.d.ts"
-      ],
-      "./node_modules/@vue/shared/dist/shared.d.ts": [
+      "./node_modules/custom-electron-titlebar/dist/main/index.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts"
       ],
-      "./node_modules/csstype/index.d.ts": [
+      "./node_modules/custom-electron-titlebar/dist/menu.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/menuitem.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/menubar.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/menu.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/menuitem.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/menu.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/titlebar.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/menubar.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/types/titlebar-options.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/vs/base/common/color.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/types/titlebar-options.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/vs/base/common/color.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/vs/base/common/color.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts"
       ],
       "./node_modules/electron/electron.d.ts": [
@@ -1189,48 +1188,16 @@
         "./node_modules/@types/node/ts4.8/index.d.ts",
         "./node_modules/@types/node/ts4.8/util.d.ts"
       ],
-      "./node_modules/source-map/source-map.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts"
-      ],
-      "./node_modules/vue/dist/vue.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts",
-        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts"
-      ],
-      "./node_modules/vuetify/lib/components/index.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/vue/dist/vue.d.ts"
-      ],
-      "./node_modules/vuetify/lib/directives/index.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/vue/dist/vue.d.ts"
-      ],
-      "./node_modules/vuetify/lib/index.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
-        "./node_modules/vue/dist/vue.d.ts",
-        "./node_modules/vuetify/lib/components/index.d.ts"
-      ],
       "./src/ball.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/vue/dist/vue.d.ts",
-        "./node_modules/vuetify/lib/components/index.d.ts",
-        "./node_modules/vuetify/lib/directives/index.d.ts",
-        "./node_modules/vuetify/lib/index.d.ts",
         "./src/global.d.ts"
       ],
       "./src/global.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/electron/electron.d.ts",
-        "./node_modules/vue/dist/vue.d.ts"
+        "./node_modules/electron/electron.d.ts"
       ],
       "./src/main.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/vue/dist/vue.d.ts",
-        "./node_modules/vuetify/lib/components/index.d.ts",
-        "./node_modules/vuetify/lib/directives/index.d.ts",
-        "./node_modules/vuetify/lib/index.d.ts",
         "./src/global.d.ts"
       ],
       "./src/router/index.ts": [
@@ -1373,12 +1340,8 @@
       "c:/users/ycl/.vscode/extensions/basarat.god-0.0.104/node_modules/typescript/lib/lib.esnext.weakref.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts"
       ],
-      "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
-        "./node_modules/@babel/types/lib/index.d.ts",
-        "./node_modules/@types/node/ts4.8/util.d.ts"
-      ],
-      "./node_modules/@babel/types/lib/index.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts"
+      "./electron/menu/index.ts": [
+        "./node_modules/electron/electron.d.ts"
       ],
       "./node_modules/@types/node/ts4.8/assert.d.ts": [
         "./node_modules/@types/node/ts4.8/assert.d.ts",
@@ -1731,38 +1694,48 @@
         "./node_modules/@types/node/ts4.8/util.d.ts",
         "./node_modules/@types/node/ts4.8/zlib.d.ts"
       ],
-      "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts": [
-        "./node_modules/@babel/parser/typings/babel-parser.d.ts",
-        "./node_modules/@babel/types/lib/index.d.ts",
+      "./node_modules/custom-electron-titlebar/dist/index.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/shared/dist/shared.d.ts",
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/custom-electron-titlebar/dist/titlebar.d.ts"
       ],
-      "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts"
-      ],
-      "./node_modules/@vue/reactivity/dist/reactivity.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/shared/dist/shared.d.ts"
-      ],
-      "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
-        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
-        "./node_modules/@vue/shared/dist/shared.d.ts"
-      ],
-      "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
-        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-        "./node_modules/csstype/index.d.ts"
-      ],
-      "./node_modules/@vue/shared/dist/shared.d.ts": [
+      "./node_modules/custom-electron-titlebar/dist/main/index.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts"
       ],
-      "./node_modules/csstype/index.d.ts": [
+      "./node_modules/custom-electron-titlebar/dist/menu.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/menuitem.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/menubar.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/menu.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/menuitem.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/menu.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/titlebar.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/menubar.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/types/titlebar-options.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/vs/base/common/color.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/types/titlebar-options.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/vs/base/common/color.d.ts",
+        "./node_modules/electron/electron.d.ts"
+      ],
+      "./node_modules/custom-electron-titlebar/dist/vs/base/common/color.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts"
       ],
       "./node_modules/electron/electron.d.ts": [
@@ -1771,34 +1744,9 @@
         "./node_modules/@types/node/ts4.8/index.d.ts",
         "./node_modules/@types/node/ts4.8/util.d.ts"
       ],
-      "./node_modules/source-map/source-map.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts"
-      ],
-      "./node_modules/vue/dist/vue.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts",
-        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts"
-      ],
-      "./node_modules/vuetify/lib/components/index.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/vue/dist/vue.d.ts"
-      ],
-      "./node_modules/vuetify/lib/directives/index.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/vue/dist/vue.d.ts"
-      ],
-      "./node_modules/vuetify/lib/index.d.ts": [
-        "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
-        "./node_modules/vue/dist/vue.d.ts",
-        "./node_modules/vuetify/lib/components/index.d.ts"
-      ],
       "./src/global.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/electron/electron.d.ts",
-        "./node_modules/vue/dist/vue.d.ts",
-        "./src/shims-vue.d.ts"
+        "./node_modules/electron/electron.d.ts"
       ],
       "./src/vite-env.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts"
@@ -1848,30 +1796,10 @@
       "c:/users/ycl/.vscode/extensions/basarat.god-0.0.104/node_modules/typescript/lib/lib.esnext.promise.d.ts",
       "c:/users/ycl/.vscode/extensions/basarat.god-0.0.104/node_modules/typescript/lib/lib.esnext.string.d.ts",
       "c:/users/ycl/.vscode/extensions/basarat.god-0.0.104/node_modules/typescript/lib/lib.esnext.weakref.d.ts",
-      [
-        "./electron/main.ts",
-        [
-          {
-            "file": "./electron/main.ts",
-            "start": 1425,
-            "length": 3,
-            "code": 2322,
-            "category": 1,
-            "messageText": "Type 'null' is not assignable to type 'BrowserWindow'."
-          },
-          {
-            "file": "./electron/main.ts",
-            "start": 2458,
-            "length": 7,
-            "code": 2322,
-            "category": 1,
-            "messageText": "Type 'null' is not assignable to type 'BrowserWindow'."
-          }
-        ]
-      ],
+      "./electron/main.ts",
+      "./electron/menu/index.ts",
+      "./electron/preload/index.ts",
       "./electron/utils/index.ts",
-      "./node_modules/@babel/parser/typings/babel-parser.d.ts",
-      "./node_modules/@babel/types/lib/index.d.ts",
       "./node_modules/@types/node/ts4.8/assert.d.ts",
       "./node_modules/@types/node/ts4.8/assert/strict.d.ts",
       "./node_modules/@types/node/ts4.8/async_hooks.d.ts",
@@ -1926,114 +1854,195 @@
       "./node_modules/@types/node/ts4.8/wasi.d.ts",
       "./node_modules/@types/node/ts4.8/worker_threads.d.ts",
       "./node_modules/@types/node/ts4.8/zlib.d.ts",
-      "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts",
-      "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts",
       [
-        "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/index.d.ts",
         [
           {
-            "file": "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
-            "start": 886,
-            "length": 13,
-            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
+            "file": "./node_modules/custom-electron-titlebar/dist/index.d.ts",
+            "start": 57,
+            "length": 22,
+            "messageText": "Cannot find module 'vs/base/common/color' or its corresponding type declarations.",
             "category": 1,
-            "code": 2748
+            "code": 2307
+          }
+        ]
+      ],
+      "./node_modules/custom-electron-titlebar/dist/main/index.d.ts",
+      [
+        "./node_modules/custom-electron-titlebar/dist/menu.d.ts",
+        [
+          {
+            "file": "./node_modules/custom-electron-titlebar/dist/menu.d.ts",
+            "start": 59,
+            "length": 22,
+            "messageText": "Cannot find module 'vs/base/common/color' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "./node_modules/custom-electron-titlebar/dist/menu.d.ts",
+            "start": 150,
+            "length": 26,
+            "messageText": "Cannot find module 'vs/base/common/lifecycle' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "./node_modules/custom-electron-titlebar/dist/menu.d.ts",
+            "start": 200,
+            "length": 22,
+            "messageText": "Cannot find module 'vs/base/common/event' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
           }
         ]
       ],
       [
-        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/menubar.d.ts",
         [
           {
-            "file": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-            "start": 53672,
-            "length": 12,
-            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
+            "file": "./node_modules/custom-electron-titlebar/dist/menubar.d.ts",
+            "start": 59,
+            "length": 22,
+            "messageText": "Cannot find module 'vs/base/common/event' or its corresponding type declarations.",
             "category": 1,
-            "code": 2748
-          },
-          {
-            "file": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-            "start": 53714,
-            "length": 12,
-            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
-            "category": 1,
-            "code": 2748
-          },
-          {
-            "file": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-            "start": 60889,
-            "length": 13,
-            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
-            "category": 1,
-            "code": 2748
-          },
-          {
-            "file": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-            "start": 73137,
-            "length": 12,
-            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
-            "category": 1,
-            "code": 2748
-          },
-          {
-            "file": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-            "start": 74136,
-            "length": 14,
-            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
-            "category": 1,
-            "code": 2748
+            "code": 2307
           }
         ]
       ],
       [
-        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
+        "./node_modules/custom-electron-titlebar/dist/menuitem.d.ts",
         [
           {
-            "file": "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
-            "start": 8827,
-            "length": 1,
-            "messageText": "An index signature parameter type must be either 'string' or 'number'.",
+            "file": "./node_modules/custom-electron-titlebar/dist/menuitem.d.ts",
+            "start": 63,
+            "length": 20,
+            "messageText": "Cannot find module 'vs/base/common/dom' or its corresponding type declarations.",
             "category": 1,
-            "code": 1023
+            "code": 2307
+          },
+          {
+            "file": "./node_modules/custom-electron-titlebar/dist/menuitem.d.ts",
+            "start": 160,
+            "length": 25,
+            "messageText": "Cannot find module 'vs/base/common/keyCodes' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "./node_modules/custom-electron-titlebar/dist/menuitem.d.ts",
+            "start": 214,
+            "length": 26,
+            "messageText": "Cannot find module 'vs/base/common/lifecycle' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
           }
         ]
       ],
-      "./node_modules/@vue/shared/dist/shared.d.ts",
-      "./node_modules/csstype/index.d.ts",
+      [
+        "./node_modules/custom-electron-titlebar/dist/titlebar.d.ts",
+        [
+          {
+            "file": "./node_modules/custom-electron-titlebar/dist/titlebar.d.ts",
+            "start": 55,
+            "length": 22,
+            "messageText": "Cannot find module 'vs/base/common/color' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
+      "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts",
+      "./node_modules/custom-electron-titlebar/dist/types/titlebar-options.d.ts",
+      "./node_modules/custom-electron-titlebar/dist/vs/base/common/color.d.ts",
       "./node_modules/electron/electron.d.ts",
-      "./node_modules/source-map/source-map.d.ts",
-      "./node_modules/vue/dist/vue.d.ts",
       [
-        "./node_modules/vuetify/lib/components/index.d.ts",
+        "./src/ball.ts",
         [
           {
-            "file": "./node_modules/vuetify/lib/components/index.d.ts",
-            "start": 451609,
-            "length": 11,
-            "messageText": "Cannot find name 'SubmitEvent'.",
+            "file": "./src/ball.ts",
+            "start": 67,
+            "length": 5,
+            "messageText": "Cannot find module 'vue' or its corresponding type declarations.",
             "category": 1,
-            "code": 2304
+            "code": 2307
+          },
+          {
+            "file": "./src/ball.ts",
+            "start": 105,
+            "length": 9,
+            "messageText": "Cannot find module 'vuetify' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "./src/ball.ts",
+            "start": 145,
+            "length": 20,
+            "messageText": "Cannot find module 'vuetify/components' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "./src/ball.ts",
+            "start": 196,
+            "length": 20,
+            "messageText": "Cannot find module 'vuetify/directives' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
           }
         ]
       ],
-      "./node_modules/vuetify/lib/directives/index.d.ts",
       [
-        "./node_modules/vuetify/lib/index.d.ts",
+        "./src/global.d.ts",
         [
           {
-            "file": "./node_modules/vuetify/lib/index.d.ts",
-            "start": 5976,
-            "length": 11,
-            "messageText": "Cannot find name 'SubmitEvent'.",
+            "file": "./src/global.d.ts",
+            "start": 311,
+            "length": 5,
+            "messageText": "Cannot find module 'vue' or its corresponding type declarations.",
             "category": 1,
-            "code": 2304
+            "code": 2307
           }
         ]
       ],
-      "./src/ball.ts",
-      "./src/global.d.ts",
-      "./src/main.ts",
+      [
+        "./src/main.ts",
+        [
+          {
+            "file": "./src/main.ts",
+            "start": 93,
+            "length": 5,
+            "messageText": "Cannot find module 'vue' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "./src/main.ts",
+            "start": 130,
+            "length": 9,
+            "messageText": "Cannot find module 'vuetify' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "./src/main.ts",
+            "start": 169,
+            "length": 20,
+            "messageText": "Cannot find module 'vuetify/components' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          },
+          {
+            "file": "./src/main.ts",
+            "start": 219,
+            "length": 20,
+            "messageText": "Cannot find module 'vuetify/directives' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
       "./src/router/index.ts",
       "./src/store/index.ts",
       "./src/vite-env.d.ts"
@@ -2213,6 +2222,18 @@
       ],
       [
         "./electron/main.ts",
+        1
+      ],
+      [
+        "./electron/menu/index.ts",
+        1
+      ],
+      [
+        "./electron/preload/index.ts",
+        1
+      ],
+      [
+        "./electron/preload/inedx.ts",
         1
       ],
       [
@@ -3944,7 +3965,251 @@
         1
       ],
       [
+        "./node_modules/custom-electron-titlebar/dist/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/custom-electron-titlebar/dist/main/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/custom-electron-titlebar/dist/menu.d.ts",
+        1
+      ],
+      [
+        "./node_modules/custom-electron-titlebar/dist/menubar.d.ts",
+        1
+      ],
+      [
+        "./node_modules/custom-electron-titlebar/dist/menuitem.d.ts",
+        1
+      ],
+      [
+        "./node_modules/custom-electron-titlebar/dist/titlebar.d.ts",
+        1
+      ],
+      [
+        "./node_modules/custom-electron-titlebar/dist/types/menubar-options.d.ts",
+        1
+      ],
+      [
+        "./node_modules/custom-electron-titlebar/dist/types/titlebar-options.d.ts",
+        1
+      ],
+      [
+        "./node_modules/custom-electron-titlebar/dist/vs/base/common/color.d.ts",
+        1
+      ],
+      [
         "./node_modules/electron/electron.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/assert.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/assert/strict.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/async_hooks.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/buffer.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/child_process.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/cluster.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/console.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/constants.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/crypto.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/dgram.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/diagnostics_channel.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/dns.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/dns/promises.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/domain.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/events.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/fs.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/fs/promises.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/globals.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/globals.global.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/http.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/http2.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/https.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/inspector.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/module.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/net.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/os.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/path.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/perf_hooks.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/process.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/punycode.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/querystring.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/readline.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/repl.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/stream.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/stream/consumers.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/stream/promises.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/stream/web.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/string_decoder.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/test.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/timers.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/timers/promises.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/tls.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/trace_events.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/tty.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/url.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/util.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/v8.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/vm.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/wasi.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/worker_threads.d.ts",
+        1
+      ],
+      [
+        "./node_modules/electron/node_modules/@types/node/ts4.8/zlib.d.ts",
         1
       ],
       [

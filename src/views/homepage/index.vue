@@ -1,46 +1,65 @@
-<script lang="ts" setup>
-function click() {
-    window.ipcRenderer.changeWindow("small");
-}
-</script>
 <template>
-    <section id="homepage">
-        <v-card height="100%">
-            <v-layout>
-                <v-navigation-drawer
-                    class="bg-deep-purple"
-                    theme="dark"
-                    permanent
-                >
-                    <v-list color="transparent">
-                        <v-list-item
-                            prepend-icon="mdi-view-dashboard"
-                            title="Dashboard"
-                        />
-                        <v-list-item
-                            prepend-icon="mdi-account-box"
-                            title="Account"
-                        />
-                        <v-list-item
-                            prepend-icon="mdi-gavel"
-                            title="Admin"
-                        />
-                    </v-list>
+    <v-card
+        height="100%"
+        class="override"
+    >
+        <v-layout>
+            <v-navigation-drawer
+                theme="dark"
+                rail
+                permanent
+                absolute
+            >
+                <v-list-item
+                    nav
+                    prepend-avatar="https://randomuser.me/api/portraits/women/75.jpg"
+                />
 
-                    <template #append>
-                        <div class="pa-2">
-                            <v-btn block> Logout </v-btn>
-                        </div>
-                    </template>
-                </v-navigation-drawer>
-                <v-main style="height: 100%">
-                    <v-btn @click="click">变成小球</v-btn>
-                </v-main>
-            </v-layout>
-        </v-card>
-    </section>
+                <v-divider />
+
+                <v-list
+                    density="compact"
+                    nav
+                >
+                    <v-list-item
+                        prepend-icon="mdi-view-dashboard"
+                        value="dashboard"
+                    />
+
+                    <v-list-item
+                        prepend-icon="mdi-forum"
+                        value="messages"
+                    />
+                </v-list>
+            </v-navigation-drawer>
+
+            <v-navigation-drawer
+                permanent
+                absolute
+            >
+                <v-list>
+                    <v-list-item
+                        title="聊天"
+                        value="home"
+                    />
+
+                    <v-list-item
+                        title="资料"
+                        value="contacts"
+                    />
+
+                    <v-list-item
+                        title="设置"
+                        value="settings"
+                    />
+                </v-list>
+            </v-navigation-drawer>
+
+            <v-main style="height: 300px" />
+        </v-layout>
+    </v-card>
 </template>
 <style lang="sass" scoped>
-#homepage
-    height: 100%
+.override
+    border-radius: 0
 </style>

@@ -1,14 +1,9 @@
 <script setup lang="ts">
+import Layout from "@src/layout/index.vue";
 import HomePage from "@views/homepage/index.vue";
 </script>
 <template>
-    <main id="electron-app">
+    <Layout>
         <HomePage />
-    </main>
+    </Layout>
 </template>
-<style lang="sass" scoped>
-#electron-app
-    width: 100%
-    height: 100%
-    background: rgb(255, 255, 255)
-</style>

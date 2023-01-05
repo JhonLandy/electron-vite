@@ -38,6 +38,7 @@ export default {
     opacity: .8
     box-sizing: border-box
     background: #293541
+    -webkit-app-region: drag
     .percent
         font-size: 18px
         color: white

@@ -7,7 +7,9 @@ export function resolveAppPath(resource: string) {
     return url.pathToFileURL(path.join(`${app.getAppPath()}/resources/app.asar`, resource)).href;
 }
 export function installDevTools(devtools: Array<string>) {
-    if (app.isPackaged) return;
+    if (app.isPackaged) {
+        return Promise.resolve();
+    }
     return Promise.all(
         devtools.map(name => {
             return session.defaultSession.loadExtension(

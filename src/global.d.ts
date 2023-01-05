@@ -4,6 +4,7 @@ interface AppIpcRenderer extends IpcRenderer {
 }
 declare interface Window {
     ipcRenderer: AppIpcRenderer;
+    loadTitlebar: () => void;
 }
 declare module "*.vue" {
     import type { DefineComponent } from "vue";
