@@ -572,8 +572,8 @@
         "affectsGlobalScope": true
       },
       "./src/main.ts": {
-        "version": "a43600be7c4df262f62c2c759af7c9017475fc35db3b17f2e7141bcfa80d8a13",
-        "signature": "c67d8f34caa141f39835e51afe6a1d9aaafcef982a54668cf39236982e5298ad",
+        "version": "b68cec24f00f4c215217a30b7db1425d154297bb3f2af3bc158a881963e37120",
+        "signature": "f58740b7eeada3b888a98d792fab919713297af86763d0faa76cb5a1fa5f318a",
         "affectsGlobalScope": false
       },
       "./src/vite-env.d.ts": {
