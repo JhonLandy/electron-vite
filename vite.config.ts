@@ -16,11 +16,11 @@ export default defineConfig(({ mode }) => ({
     build: {
         outDir: "dist-app",
         assetsDir: "static",
-        sourcemap: true,
+        sourcemap: false,
         rollupOptions: {
             input: {
-                index: resolve(__dirname, "./public/index.html"),
-                ball: resolve(__dirname, "./public/ball.html"),
+                index: "./index.html",
+                ball: "./ball.html",
             },
             output: {
                 entryFileNames: "js/[name].[hash].entry.js",
@@ -37,7 +37,7 @@ export default defineConfig(({ mode }) => ({
                         case /\.(mp4|webm|ogg|mp3|wav|flac|acc)$/.test(filename):
                             return "media/[name].[hash].[ext]";
                         default:
-                            return filename;
+                            return "";
                     }
                 },
                 manualChunks(id) {

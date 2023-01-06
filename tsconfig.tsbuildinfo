@@ -216,6 +216,76 @@
         "signature": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
         "affectsGlobalScope": true
       },
+      "./node_modules/@babel/types/lib/index.d.ts": {
+        "version": "f4617bbd5403ec5b058db53b242dcb1421952e2652bd5c80abf6a1c4ea5656d6",
+        "signature": "f4617bbd5403ec5b058db53b242dcb1421952e2652bd5c80abf6a1c4ea5656d6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@vue/shared/dist/shared.d.ts": {
+        "version": "b1e2df05aa3ff6b351c0cf3136a6ccde19deed473355818544ec7c770e3dd623",
+        "signature": "b1e2df05aa3ff6b351c0cf3136a6ccde19deed473355818544ec7c770e3dd623",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@babel/parser/typings/babel-parser.d.ts": {
+        "version": "7ec238b220ea991b6643e24191b1f552a65956d5f6de4c6144e700b9985265d8",
+        "signature": "7ec238b220ea991b6643e24191b1f552a65956d5f6de4c6144e700b9985265d8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/source-map/source-map.d.ts": {
+        "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
+        "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts": {
+        "version": "aa5af9d5c14a15405a29c85b7e97ab71ac770211b343ab6acfb171d3ac0f326b",
+        "signature": "aa5af9d5c14a15405a29c85b7e97ab71ac770211b343ab6acfb171d3ac0f326b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts": {
+        "version": "3c342f3dd1f05c3e1e8981ec1b7943806a5cadcaef0e2a4a79d399a40fc1eadc",
+        "signature": "3c342f3dd1f05c3e1e8981ec1b7943806a5cadcaef0e2a4a79d399a40fc1eadc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@vue/reactivity/dist/reactivity.d.ts": {
+        "version": "f202d382a3fd3213d7981ee79fefeb863b7e4a8990a36d8e0a625a07c2f03944",
+        "signature": "f202d382a3fd3213d7981ee79fefeb863b7e4a8990a36d8e0a625a07c2f03944",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts": {
+        "version": "8cdf7dac484dde17e0dfcd7a502571ce2639b4d9501183b0d9de9fcbb8eb578a",
+        "signature": "8cdf7dac484dde17e0dfcd7a502571ce2639b4d9501183b0d9de9fcbb8eb578a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/csstype/index.d.ts": {
+        "version": "c609b66caa6f5b80a9166ce7505730b398ae7c0eddc0c1feed28a17814cf8609",
+        "signature": "c609b66caa6f5b80a9166ce7505730b398ae7c0eddc0c1feed28a17814cf8609",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts": {
+        "version": "10ce6d52fe7dc184872e2cb1617d972e24484a96175a7a0b1f1a597eb44e8208",
+        "signature": "10ce6d52fe7dc184872e2cb1617d972e24484a96175a7a0b1f1a597eb44e8208",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/vue/dist/vue.d.ts": {
+        "version": "f79e452d452ab10eac3f96b3b3930cf78ec6c9037c4cd9a062dae61744f634fc",
+        "signature": "f79e452d452ab10eac3f96b3b3930cf78ec6c9037c4cd9a062dae61744f634fc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vuetify/lib/components/index.d.ts": {
+        "version": "e439fb896e454c4e116105c96eda40b6a16fd4ee1b0ab2768f3552e51e9a0c5c",
+        "signature": "e439fb896e454c4e116105c96eda40b6a16fd4ee1b0ab2768f3552e51e9a0c5c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vuetify/lib/index.d.ts": {
+        "version": "99d1b98b9147f3027462fe1f20d2369c3176ee9829a82dac5d2c80d03f56a151",
+        "signature": "99d1b98b9147f3027462fe1f20d2369c3176ee9829a82dac5d2c80d03f56a151",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/vuetify/lib/directives/index.d.ts": {
+        "version": "dd9b24d90218fb8ea9108289597ac1437207685ff320474543a3ac3acf54f317",
+        "signature": "dd9b24d90218fb8ea9108289597ac1437207685ff320474543a3ac3acf54f317",
+        "affectsGlobalScope": false
+      },
       "./src/ball.ts": {
         "version": "4ff937e36283b0ead99f54d7e7231be22eb8e0cd23610aa60b4257bd07c62d1b",
         "signature": "1a32c3dbccadf06a9f55b78b5dd3ef0ba23c9e0b1f90931261e3e602849ed8b6",
@@ -787,6 +857,13 @@
         "./node_modules/@types/node/ts4.8/util.d.ts",
         "./node_modules/electron/electron.d.ts"
       ],
+      "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "./node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
+      "./node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
       "./node_modules/@types/node/ts4.8/assert.d.ts": [
         "./node_modules/@types/node/ts4.8/assert.d.ts",
         "./node_modules/@types/node/ts4.8/util.d.ts"
@@ -1138,6 +1215,40 @@
         "./node_modules/@types/node/ts4.8/util.d.ts",
         "./node_modules/@types/node/ts4.8/zlib.d.ts"
       ],
+      "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts": [
+        "./node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "./node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/shared/dist/shared.d.ts",
+        "./node_modules/source-map/source-map.d.ts"
+      ],
+      "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts"
+      ],
+      "./node_modules/@vue/reactivity/dist/reactivity.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/shared/dist/shared.d.ts"
+      ],
+      "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
+        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
+        "./node_modules/@vue/shared/dist/shared.d.ts"
+      ],
+      "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
+        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+        "./node_modules/csstype/index.d.ts"
+      ],
+      "./node_modules/@vue/shared/dist/shared.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
+      "./node_modules/csstype/index.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
       "./node_modules/custom-electron-titlebar/dist/index.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
         "./node_modules/custom-electron-titlebar/dist/titlebar.d.ts"
@@ -1188,16 +1299,48 @@
         "./node_modules/@types/node/ts4.8/index.d.ts",
         "./node_modules/@types/node/ts4.8/util.d.ts"
       ],
+      "./node_modules/source-map/source-map.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
+      "./node_modules/vue/dist/vue.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts",
+        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts"
+      ],
+      "./node_modules/vuetify/lib/components/index.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/vue/dist/vue.d.ts"
+      ],
+      "./node_modules/vuetify/lib/directives/index.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/vue/dist/vue.d.ts"
+      ],
+      "./node_modules/vuetify/lib/index.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
+        "./node_modules/vue/dist/vue.d.ts",
+        "./node_modules/vuetify/lib/components/index.d.ts"
+      ],
       "./src/ball.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/vue/dist/vue.d.ts",
+        "./node_modules/vuetify/lib/components/index.d.ts",
+        "./node_modules/vuetify/lib/directives/index.d.ts",
+        "./node_modules/vuetify/lib/index.d.ts",
         "./src/global.d.ts"
       ],
       "./src/global.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
-        "./node_modules/electron/electron.d.ts"
+        "./node_modules/electron/electron.d.ts",
+        "./node_modules/vue/dist/vue.d.ts"
       ],
       "./src/main.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/vue/dist/vue.d.ts",
+        "./node_modules/vuetify/lib/components/index.d.ts",
+        "./node_modules/vuetify/lib/directives/index.d.ts",
+        "./node_modules/vuetify/lib/index.d.ts",
         "./src/global.d.ts"
       ],
       "./src/router/index.ts": [
@@ -1343,6 +1486,13 @@
       "./electron/menu/index.ts": [
         "./node_modules/electron/electron.d.ts"
       ],
+      "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "./node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
+      "./node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
       "./node_modules/@types/node/ts4.8/assert.d.ts": [
         "./node_modules/@types/node/ts4.8/assert.d.ts",
         "./node_modules/@types/node/ts4.8/util.d.ts"
@@ -1694,6 +1844,40 @@
         "./node_modules/@types/node/ts4.8/util.d.ts",
         "./node_modules/@types/node/ts4.8/zlib.d.ts"
       ],
+      "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts": [
+        "./node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "./node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/shared/dist/shared.d.ts",
+        "./node_modules/source-map/source-map.d.ts"
+      ],
+      "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts"
+      ],
+      "./node_modules/@vue/reactivity/dist/reactivity.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/shared/dist/shared.d.ts"
+      ],
+      "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
+        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
+        "./node_modules/@vue/shared/dist/shared.d.ts"
+      ],
+      "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
+        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+        "./node_modules/csstype/index.d.ts"
+      ],
+      "./node_modules/@vue/shared/dist/shared.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
+      "./node_modules/csstype/index.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
       "./node_modules/custom-electron-titlebar/dist/index.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
         "./node_modules/custom-electron-titlebar/dist/titlebar.d.ts"
@@ -1743,6 +1927,29 @@
         "./node_modules/@types/node/ts4.8/fs.d.ts",
         "./node_modules/@types/node/ts4.8/index.d.ts",
         "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
+      "./node_modules/source-map/source-map.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts"
+      ],
+      "./node_modules/vue/dist/vue.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts",
+        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts"
+      ],
+      "./node_modules/vuetify/lib/components/index.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/vue/dist/vue.d.ts"
+      ],
+      "./node_modules/vuetify/lib/directives/index.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/vue/dist/vue.d.ts"
+      ],
+      "./node_modules/vuetify/lib/index.d.ts": [
+        "./node_modules/@types/node/ts4.8/util.d.ts",
+        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
+        "./node_modules/vue/dist/vue.d.ts",
+        "./node_modules/vuetify/lib/components/index.d.ts"
       ],
       "./src/global.d.ts": [
         "./node_modules/@types/node/ts4.8/util.d.ts",
@@ -1800,6 +2007,8 @@
       "./electron/menu/index.ts",
       "./electron/preload/index.ts",
       "./electron/utils/index.ts",
+      "./node_modules/@babel/parser/typings/babel-parser.d.ts",
+      "./node_modules/@babel/types/lib/index.d.ts",
       "./node_modules/@types/node/ts4.8/assert.d.ts",
       "./node_modules/@types/node/ts4.8/assert/strict.d.ts",
       "./node_modules/@types/node/ts4.8/async_hooks.d.ts",
@@ -1854,6 +2063,81 @@
       "./node_modules/@types/node/ts4.8/wasi.d.ts",
       "./node_modules/@types/node/ts4.8/worker_threads.d.ts",
       "./node_modules/@types/node/ts4.8/zlib.d.ts",
+      "./node_modules/@vue/compiler-core/dist/compiler-core.d.ts",
+      "./node_modules/@vue/compiler-dom/dist/compiler-dom.d.ts",
+      [
+        "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
+        [
+          {
+            "file": "./node_modules/@vue/reactivity/dist/reactivity.d.ts",
+            "start": 886,
+            "length": 13,
+            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
+            "category": 1,
+            "code": 2748
+          }
+        ]
+      ],
+      [
+        "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+        [
+          {
+            "file": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+            "start": 53672,
+            "length": 12,
+            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
+            "category": 1,
+            "code": 2748
+          },
+          {
+            "file": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+            "start": 53714,
+            "length": 12,
+            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
+            "category": 1,
+            "code": 2748
+          },
+          {
+            "file": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+            "start": 60889,
+            "length": 13,
+            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
+            "category": 1,
+            "code": 2748
+          },
+          {
+            "file": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+            "start": 73137,
+            "length": 12,
+            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
+            "category": 1,
+            "code": 2748
+          },
+          {
+            "file": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+            "start": 74136,
+            "length": 14,
+            "messageText": "Cannot access ambient const enums when the '--isolatedModules' flag is provided.",
+            "category": 1,
+            "code": 2748
+          }
+        ]
+      ],
+      [
+        "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
+        [
+          {
+            "file": "./node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
+            "start": 8827,
+            "length": 1,
+            "messageText": "An index signature parameter type must be either 'string' or 'number'.",
+            "category": 1,
+            "code": 1023
+          }
+        ]
+      ],
+      "./node_modules/@vue/shared/dist/shared.d.ts",
+      "./node_modules/csstype/index.d.ts",
       [
         "./node_modules/custom-electron-titlebar/dist/index.d.ts",
         [
@@ -1956,93 +2240,38 @@
       "./node_modules/custom-electron-titlebar/dist/types/titlebar-options.d.ts",
       "./node_modules/custom-electron-titlebar/dist/vs/base/common/color.d.ts",
       "./node_modules/electron/electron.d.ts",
+      "./node_modules/source-map/source-map.d.ts",
+      "./node_modules/vue/dist/vue.d.ts",
       [
-        "./src/ball.ts",
+        "./node_modules/vuetify/lib/components/index.d.ts",
         [
           {
-            "file": "./src/ball.ts",
-            "start": 67,
-            "length": 5,
-            "messageText": "Cannot find module 'vue' or its corresponding type declarations.",
+            "file": "./node_modules/vuetify/lib/components/index.d.ts",
+            "start": 451609,
+            "length": 11,
+            "messageText": "Cannot find name 'SubmitEvent'.",
             "category": 1,
-            "code": 2307
-          },
-          {
-            "file": "./src/ball.ts",
-            "start": 105,
-            "length": 9,
-            "messageText": "Cannot find module 'vuetify' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
-          },
-          {
-            "file": "./src/ball.ts",
-            "start": 145,
-            "length": 20,
-            "messageText": "Cannot find module 'vuetify/components' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
-          },
-          {
-            "file": "./src/ball.ts",
-            "start": 196,
-            "length": 20,
-            "messageText": "Cannot find module 'vuetify/directives' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
+            "code": 2304
           }
         ]
       ],
+      "./node_modules/vuetify/lib/directives/index.d.ts",
       [
-        "./src/global.d.ts",
+        "./node_modules/vuetify/lib/index.d.ts",
         [
           {
-            "file": "./src/global.d.ts",
-            "start": 311,
-            "length": 5,
-            "messageText": "Cannot find module 'vue' or its corresponding type declarations.",
+            "file": "./node_modules/vuetify/lib/index.d.ts",
+            "start": 5976,
+            "length": 11,
+            "messageText": "Cannot find name 'SubmitEvent'.",
             "category": 1,
-            "code": 2307
+            "code": 2304
           }
         ]
       ],
-      [
-        "./src/main.ts",
-        [
-          {
-            "file": "./src/main.ts",
-            "start": 93,
-            "length": 5,
-            "messageText": "Cannot find module 'vue' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
-          },
-          {
-            "file": "./src/main.ts",
-            "start": 130,
-            "length": 9,
-            "messageText": "Cannot find module 'vuetify' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
-          },
-          {
-            "file": "./src/main.ts",
-            "start": 169,
-            "length": 20,
-            "messageText": "Cannot find module 'vuetify/components' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
-          },
-          {
-            "file": "./src/main.ts",
-            "start": 219,
-            "length": 20,
-            "messageText": "Cannot find module 'vuetify/directives' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
-          }
-        ]
-      ],
+      "./src/ball.ts",
+      "./src/global.d.ts",
+      "./src/main.ts",
       "./src/router/index.ts",
       "./src/store/index.ts",
       "./src/vite-env.d.ts"
